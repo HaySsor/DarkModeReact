@@ -1,0 +1,75 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	background-color: #ffffff;
+	padding: 30px 25px;
+	height: 60px;
+	z-index: 1;
+    transition: background 0.5s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.208);
+}
+
+.navbar h3 {
+	color: #61DAFB;
+    margin-right: auto;
+}
+.navbar h2 {
+	color: #61dafb;
+	font-size: 22.25px;
+	font-weight: bold;
+}
+.navbar img {
+	width: 30px;
+    margin-right: 10px;
+}
+.toggler {
+    display: flex;
+    align-items: center;
+}
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+.togglerSlider {
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+.togglerSliderCircle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+.navbar.dark .togglerSliderCircle {
+    background-color: black;
+}
+.togglerLight {
+    color: #2B283A;
+}
+.navbar.dark .togglerLight {
+    color: #918E9B;
+}
+.togglerDark {
+    color: #D5D4D8;
+}
+
+.navbar.dark .togglerDark {
+    color: #FFFFFF;
+}
+
+.navbar.dark .togglerSlider {
+    justify-content: flex-end;
+}
+.navbar.dark{
+    background-color: #3a3939;
+    color:white;
+}
